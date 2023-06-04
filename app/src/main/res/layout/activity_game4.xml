@@ -61,14 +61,7 @@
 
             <EditText
                 android:id="@+id/cell1"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:max="99" />
+                style="@style/EditTextStyle4"/>
 
             <View
                 android:layout_width="1dp"
@@ -77,14 +70,7 @@
 
             <EditText
                 android:id="@+id/cell2"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:max="99" />
+                style="@style/EditTextStyle4"/>
 
             <View
                 android:layout_width="1dp"
@@ -93,14 +79,7 @@
 
             <EditText
                 android:id="@+id/cell3"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:max="99" />
+                style="@style/EditTextStyle4"/>
             <View
                 android:layout_width="1dp"
                 android:layout_height="match_parent"
@@ -108,14 +87,7 @@
 
             <EditText
                 android:id="@+id/cell4"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:max="99" />
+                style="@style/EditTextStyle4"/>
 
         </LinearLayout>
 
@@ -131,14 +103,7 @@
 
             <EditText
                 android:id="@+id/cell5"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:max="99" />
+                style="@style/EditTextStyle4"/>
 
             <View
                 android:layout_width="1dp"
@@ -147,14 +112,7 @@
 
             <EditText
                 android:id="@+id/cell6"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:max="99" />
+                style="@style/EditTextStyle4"/>
 
             <View
                 android:layout_width="1dp"
@@ -163,14 +121,7 @@
 
             <EditText
                 android:id="@+id/cell7"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:max="99" />
+                style="@style/EditTextStyle4"/>
             <View
                 android:layout_width="1dp"
                 android:layout_height="match_parent"
@@ -178,14 +129,7 @@
 
             <EditText
                 android:id="@+id/cell8"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:max="99" />
+                style="@style/EditTextStyle4"/>
 
         </LinearLayout>
 
@@ -201,14 +145,7 @@
 
             <EditText
                 android:id="@+id/cell9"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:max="99" />
+                style="@style/EditTextStyle4"/>
 
             <View
                 android:layout_width="1dp"
@@ -217,14 +154,7 @@
 
             <EditText
                 android:id="@+id/cell10"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:max="99" />
+                style="@style/EditTextStyle4"/>
 
             <View
                 android:layout_width="1dp"
@@ -233,14 +163,7 @@
 
             <EditText
                 android:id="@+id/cell11"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:max="99" />
+                style="@style/EditTextStyle4"/>
             <View
                 android:layout_width="1dp"
                 android:layout_height="match_parent"
@@ -248,14 +171,7 @@
 
             <EditText
                 android:id="@+id/cell12"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:max="99" />
+                style="@style/EditTextStyle4"/>
 
         </LinearLayout>
         <View
@@ -270,14 +186,7 @@
 
             <EditText
                 android:id="@+id/cell13"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:max="99" />
+                style="@style/EditTextStyle4"/>
 
             <View
                 android:layout_width="1dp"
@@ -286,14 +195,7 @@
 
             <EditText
                 android:id="@+id/cell14"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:max="99" />
+                style="@style/EditTextStyle4"/>
 
             <View
                 android:layout_width="1dp"
@@ -302,14 +204,7 @@
 
             <EditText
                 android:id="@+id/cell15"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:max="99" />
+                style="@style/EditTextStyle4"/>
             <View
                 android:layout_width="1dp"
                 android:layout_height="match_parent"
@@ -317,14 +212,7 @@
 
             <EditText
                 android:id="@+id/cell16"
-                android:layout_width="80dp"
-                android:layout_height="80dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:max="99" />
+                style="@style/EditTextStyle4"/>
 
         </LinearLayout>
 

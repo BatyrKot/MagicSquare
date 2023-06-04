@@ -9,9 +9,10 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.text.Editable;
+import android.text.TextWatcher;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
@@ -24,6 +25,7 @@ public class Game3Activity extends AppCompatActivity implements OnClickListener 
 
     Button backButton;
     Button newGameButton;
+    Button SUM;
 
     public void onClick(View v) {
         if (v == backButton) {
@@ -32,8 +34,11 @@ public class Game3Activity extends AppCompatActivity implements OnClickListener 
             finish();
         }else if (v.getId() == R.id.newgame) {
             initializeGame();
+            updateSums();
         }else if (v.getId() == R.id.validate) {
             initializeGame();
+        }else if (v.getId() == R.id.SUM) {
+            updateSums();
         }
     }
 
@@ -48,6 +53,9 @@ public class Game3Activity extends AppCompatActivity implements OnClickListener 
         backButton = findViewById(R.id.back);
         backButton.setOnClickListener(this);
 
+        SUM = findViewById(R.id.SUM);
+        SUM.setOnClickListener(this);
+
         validateButton = findViewById(R.id.validate);
         validateButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,6 +67,7 @@ public class Game3Activity extends AppCompatActivity implements OnClickListener 
         random = new Random();
 
         initializeGame();
+        updateSums();
     }
 
 
@@ -103,6 +112,7 @@ public class Game3Activity extends AppCompatActivity implements OnClickListener 
             matrix[index[0]][index[1]] = 0;
         }
 
+
         cell1.setText(String.valueOf(matrix[0][0]));
         cell2.setText(String.valueOf(matrix[0][1]));
         cell3.setText(String.valueOf(matrix[0][2]));
@@ -112,7 +122,61 @@ public class Game3Activity extends AppCompatActivity implements OnClickListener 
         cell7.setText(String.valueOf(matrix[2][0]));
         cell8.setText(String.valueOf(matrix[2][1]));
         cell9.setText(String.valueOf(matrix[2][2]));
+
+
     }
+
+    private void updateSums() {
+        int[][] matrix = new int[3][3];
+
+        EditText cell1 = findViewById(R.id.cell1);
+        EditText cell2 = findViewById(R.id.cell2);
+        EditText cell3 = findViewById(R.id.cell3);
+        EditText cell4 = findViewById(R.id.cell4);
+        EditText cell5 = findViewById(R.id.cell5);
+        EditText cell6 = findViewById(R.id.cell6);
+        EditText cell7 = findViewById(R.id.cell7);
+        EditText cell8 = findViewById(R.id.cell8);
+        EditText cell9 = findViewById(R.id.cell9);
+
+        matrix[0][0] = Integer.parseInt(cell1.getText().toString());
+        matrix[0][1] = Integer.parseInt(cell2.getText().toString());
+        matrix[0][2] = Integer.parseInt(cell3.getText().toString());
+        matrix[1][0] = Integer.parseInt(cell4.getText().toString());
+        matrix[1][1] = Integer.parseInt(cell5.getText().toString());
+        matrix[1][2] = Integer.parseInt(cell6.getText().toString());
+        matrix[2][0] = Integer.parseInt(cell7.getText().toString());
+        matrix[2][1] = Integer.parseInt(cell8.getText().toString());
+        matrix[2][2] = Integer.parseInt(cell9.getText().toString());
+
+        int sumRow1 = matrix[0][0] + matrix[0][1] + matrix[0][2];
+        int sumRow3 = matrix[2][0] + matrix[2][1] + matrix[2][2];
+
+        int sumCol1 = matrix[0][0] + matrix[1][0] + matrix[2][0];
+        int sumCol3 = matrix[0][2] + matrix[1][2] + matrix[2][2];
+
+        int sumDiag1 = matrix[0][0] + matrix[1][1] + matrix[2][2];
+        int sumDiag2 = matrix[0][2] + matrix[1][1] + matrix[2][0];
+
+        TextView sumTextView1 = findViewById(R.id.sum2);
+        sumTextView1.setText(String.valueOf(sumRow1));
+
+        TextView sumTextView2 = findViewById(R.id.sum3);
+        sumTextView2.setText(String.valueOf(sumRow3));
+
+        TextView sumTextView3 = findViewById(R.id.sum6);
+        sumTextView3.setText(String.valueOf(sumCol1));
+
+        TextView sumTextView4 = findViewById(R.id.sum5);
+        sumTextView4.setText(String.valueOf(sumCol3));
+
+        TextView sumTextView5 = findViewById(R.id.sum4);
+        sumTextView5.setText(String.valueOf(sumDiag1));
+
+        TextView sumTextView6 = findViewById(R.id.sum1);
+        sumTextView6.setText(String.valueOf(sumDiag2));
+    }
+
 
 
 

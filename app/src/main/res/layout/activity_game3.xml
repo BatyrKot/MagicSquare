@@ -37,6 +37,15 @@
         android:text="Вернуться"
         app:backgroundTint="#11000000" />
 
+    <Button
+        android:id="@+id/SUM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="50dp"
+        android:text="SUM"
+        app:backgroundTint="#11000000" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -52,7 +61,6 @@
         android:layout_gravity="center"
         android:background="@android:color/white"
         android:gravity="center"
-        android:style="@style/MyEditTextStyle"
         android:orientation="vertical">
 
         <LinearLayout
@@ -63,14 +71,7 @@
 
             <EditText
                 android:id="@+id/cell1"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:maxLength="2"/>
+                style="@style/EditTextStyle"/>
 
             <View
                 android:layout_width="1dp"
@@ -79,14 +80,7 @@
 
             <EditText
                 android:id="@+id/cell2"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:maxLength="2"/>
+                style="@style/EditTextStyle"/>
 
             <View
                 android:layout_width="1dp"
@@ -95,14 +89,7 @@
 
             <EditText
                 android:id="@+id/cell3"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:maxLength="2"/>
+                style="@style/EditTextStyle"/>
 
         </LinearLayout>
 
@@ -119,14 +106,7 @@
 
             <EditText
                 android:id="@+id/cell4"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:maxLength="2"/>
+                style="@style/EditTextStyle"/>
 
             <View
                 android:layout_width="1dp"
@@ -135,14 +115,7 @@
 
             <EditText
                 android:id="@+id/cell5"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:maxLength="2"/>
+                style="@style/EditTextStyle"/>
 
             <View
                 android:layout_width="1dp"
@@ -151,14 +124,7 @@
 
             <EditText
                 android:id="@+id/cell6"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:maxLength="2"/>
+                style="@style/EditTextStyle"/>
 
         </LinearLayout>
 
@@ -175,14 +141,7 @@
 
             <EditText
                 android:id="@+id/cell7"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:maxLength="2"/>
+                style="@style/EditTextStyle"/>
 
             <View
                 android:layout_width="1dp"
@@ -191,14 +150,7 @@
 
             <EditText
                 android:id="@+id/cell8"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:maxLength="2"/>
+                style="@style/EditTextStyle"/>
 
             <View
                 android:layout_width="1dp"
@@ -207,18 +159,48 @@
 
             <EditText
                 android:id="@+id/cell9"
-                android:layout_width="120dp"
-                android:layout_height="120dp"
-                android:background="@color/white"
-                android:gravity="center"
-                android:textSize="45sp"
-                android:textColor="#000000"
-                android:inputType="number"
-                android:maxLength="2"/>
+                style="@style/EditTextStyle"/>
 
         </LinearLayout>
 
     </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/sum1"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="515dp"
+        style="@style/SumsStyle" />
+
+    <TextView
+        android:id="@+id/sum2"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="270dp"
+        style="@style/SumsStyle" />
+
+    <TextView
+        android:id="@+id/sum3"
+        android:layout_marginStart="325dp"
+        android:layout_marginTop="450dp"
+        style="@style/SumsStyle" />
+
+    <TextView
+        android:id="@+id/sum4"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="205dp"
+        style="@style/SumsStyle" />
+
+    <TextView
+        android:id="@+id/sum5"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop="210dp"
+        style="@style/SumsStyle" />
+
+    <TextView
+        android:id="@+id/sum6"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="210dp"
+        style="@style/SumsStyle" />
 
 
     <Button
@@ -230,6 +212,7 @@
         android:layout_marginTop="20dp"
         android:text="Проверить"
         app:backgroundTint="#11000000" />
+
 
     <Button
         android:id="@+id/newgame"
