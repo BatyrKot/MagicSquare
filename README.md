@@ -1,58 +1,48 @@
-# Magic Square Game
+# Игра "Магический квадрат"
 
-This is an Android game application that allows users to play with a magic square puzzle. The game challenges players to fill in a 3x3 grid with numbers, aiming to create a magic square where the sum of each row, column, and diagonal is the same.
+Это приложение для игры на платформе Android, которое позволяет пользователям играть в игру с магическим квадратом. В игре игрокам предлагается заполнить сетку размером 3x3 или 4x4 числами с целью создать магический квадрат, в котором сумма 1 и 3 (1 и 4) строки, сумма 1 и 3 (1 и 4) столбца и сумма диагонали будет одинаковой.
 
-## Features
+## Особенности
 
-- Randomly generates a magic square puzzle with one missing number.
-- Allows users to input their answers by filling in the missing number.
-- Validates the user's solution and provides feedback.
-- Provides an option to generate a new puzzle.
-- Displays the target sum that each row, column, and diagonal should add up to.
-- User-friendly interface with buttons for easy navigation.
+- Случайным образом генерирует головоломку с магическим квадратом, в котором отсутствует несколько чисел.
+- Позволяет пользователям вводить свои ответы, заполняя отсутствующие числа.
+- Проверяет правильность решения пользователя и дает обратную связь.
+- Предоставляет возможность сгенерировать новую головоломку.
+- Отображает целевую сумму, которую должны составлять каждая строка, столбец и диагональ.
+- Пользовательский интерфейс с кнопками для удобной навигации.
 
-## Getting Started
+## Начало работы
 
-To run the game application locally, follow these steps:
+Чтобы запустить приложение игры локально, выполните следующие шаги:
 
-1. Clone the repository:
+1. Клонируйте репозиторий:
 
    ```bash
    git clone https://github.com/your-username/magic-square-game.git
    ```
 
-2. Open the project in Android Studio.
+2. Откройте проект в Android Studio.
 
-3. Build and run the application on an Android emulator or a physical device.
+3. Соберите и запустите приложение на эмуляторе Android или физическом устройстве.
 
-## Usage
+## Использование
 
-- When the game starts, a magic square puzzle is generated with one number missing.
+- При запуске игры генерируется головоломка с магическим квадратом, в которой отсутствует несколько чисел.
 
-- Fill in the missing number by tapping the corresponding cell and entering the value.
+- Заполните отсутствующее число, коснувшись соответствующей ячейки и введя значение.
 
-- Tap the "Validate" button to check if your solution is correct.
+- Нажмите кнопку "Проверить", чтобы проверить правильность вашего решения.
 
-- If the solution is correct, a success message will be displayed. Otherwise, an error message will appear.
+- Если решение верно, будет отображено сообщение о успехе. В противном случае появится сообщение об ошибке.
 
-- Tap the "New Game" button to generate a new magic square puzzle.
+- Нажмите кнопку "Новая игра", чтобы сгенерировать новую головоломку с магическим квадратом.
 
-## Contributing
+## Внесение вклада
 
-Contributions are welcome! If you have any ideas, suggestions, or bug fixes, please open an issue or submit a pull request.
+Принимаются вклады! Если у вас есть какие-либо идеи, предложения или исправления ошибок, пожалуйста, откройте issue или отправьте pull request.
 
-## License
+## Лицензия
 
-This project is licensed under the [MIT License](LICENSE).
+Этот проект лицензируется на условиях [MIT License](LICENSE).
 
-## Acknowledgments
-
-- The magic square generation algorithm is based on [insert algorithm source/reference].
-
-- [List any external libraries or resources used in the project, if applicable.]
-
-## Contact
-
-If you have any questions, feel free to contact the project maintainer at [email protected].
-
-[Optional: Add any other relevant sections or information as needed.]
+##
