@@ -101,7 +101,9 @@ public class Game3Activity extends AppCompatActivity implements OnClickListener 
         }
 
         List<int[]> randomIndices = new ArrayList<>();
-        while (randomIndices.size() < 4) {
+        Random random = new Random();
+        int targetSize = random.nextInt(3) + 2;
+        while (randomIndices.size() < targetSize) {
             int[] index = indices.get(random.nextInt(indices.size()));
             if (!randomIndices.contains(index)) {
                 randomIndices.add(index);

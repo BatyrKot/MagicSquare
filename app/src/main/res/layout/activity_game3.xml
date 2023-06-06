@@ -170,6 +170,7 @@
         android:id="@+id/sum1"
         android:layout_marginStart="0dp"
         android:layout_marginTop="515dp"
+        android:textColor="#B3FF00"
         style="@style/SumsStyle" />
 
     <TextView
@@ -188,6 +189,7 @@
         android:id="@+id/sum4"
         android:layout_marginStart="0dp"
         android:layout_marginTop="205dp"
+        android:textColor="#B3FF00"
         style="@style/SumsStyle" />
 
     <TextView

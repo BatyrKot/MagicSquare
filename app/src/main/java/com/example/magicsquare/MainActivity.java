@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
         mButton4x4 = (Button) findViewById(R.id.btn_4x4);
         mButton4x4.setOnClickListener(this);
+
     }
 
     public void onClick(View v) {
