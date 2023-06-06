@@ -11,10 +11,6 @@ This is an Android game application that allows users to play with a magic squar
 - Displays the target sum that each row, column, and diagonal should add up to.
 - User-friendly interface with buttons for easy navigation.
 
-## Screenshots
-
-![Game Screen](screenshots/game_screen.png)
-
 ## Getting Started
 
 To run the game application locally, follow these steps:
